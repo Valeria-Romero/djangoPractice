@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #0c4b33;
+    color: white;
+    font-size: small;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 230px;
+    padding-right: 150px;
+}
+
+.text{
+    color: rgb(84, 223, 169);
+    margin-left: 20px;
+    font-size: 10px;
+}
+.logo{
+    height: 30px;
+    width: auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #305846;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(212, 209, 209);
+}
+
+.actionButton{
+    background-color: #44b78b;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+.introButton{
+    margin-top: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.information{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 230px;
+    margin-right: 150px;
+}
+
+.secondaryBtn{
+    align-self: center;
+}
+
+.downloadButton{
+    background-color: #44b78b;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+
+}
+
+.sidebar{
+    flex: 5;
+    background-color: rgb(240, 238, 238);
+    padding-top: 50px;
+    padding-left: 80px;
+}
